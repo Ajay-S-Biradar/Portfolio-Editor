@@ -63,6 +63,12 @@ const Tag = ({ tag, tags, setTags }) => {
                     >
                         Delete
                     </button>
+                    <button
+                        onClick={()=>setEditing(false)}
+                        className='mt-2 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300'
+                    >
+                        Cancel
+                    </button>
                 </div>
             )}
         </div>
